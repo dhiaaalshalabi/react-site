@@ -1,6 +1,6 @@
-function Footer() {
+function Footer(props) {
     return (
-        <footer>
+        <footer className={props.darkMode ? 'dark' : ''}>
             © 2022 Dhiaa development. All rights reserved.
         </footer>
     )
